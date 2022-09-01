@@ -1,3 +1,5 @@
+package Practice.src;
+
 import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
 
 public class Hello {
@@ -40,6 +42,10 @@ class Student{
 
     public Student(String name, int age, double gpa, boolean enrolled){
         this.name = name;
+    }
+
+    public Student() {
+
     }
 
     public void sayHello(){
