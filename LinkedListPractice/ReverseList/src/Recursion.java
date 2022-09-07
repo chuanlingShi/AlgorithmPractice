@@ -1,6 +1,7 @@
 package LinkedListPractice.ReverseList.src;
 
-import java.util.List;
+import test.ListNode;
+
 
 public class Recursion {
     public ListNode reverse(ListNode head){
