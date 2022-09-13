@@ -35,6 +35,7 @@ public class StoreNumNodeLeft {
         }
         int leftNum = numNodes(root.left);
         int rightNum = numNodes(root.right);
+        root.numNodesLeft = leftNum;
         return leftNum + rightNum + 1;
     }
 }
