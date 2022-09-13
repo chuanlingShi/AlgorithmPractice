@@ -3,8 +3,7 @@ package LinkedListPractice.ReverseList.src;
 
 import test.ListNode;
 
-import static test.ListNode.printLinkedList;
-import static test.ListNode.toLinkedList;
+import static test.ListNode.*;
 
 public class Driver {
     public static void main(String[] argv){

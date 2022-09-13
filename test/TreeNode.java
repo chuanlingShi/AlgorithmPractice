@@ -9,4 +9,9 @@ public class TreeNode {
         this.key = value;
     }
 
+//    public static TreeNode toBinaryTree(Integer[] array) {
+//        if(array == null) {
+//            return null;
+//        }
+//    }
 }
