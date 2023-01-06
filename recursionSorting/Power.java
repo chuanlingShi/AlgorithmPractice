@@ -15,4 +15,5 @@ public class Power {
             return a * half * half;
         }
     }
+    //TC: logb, SC: logb
 }
