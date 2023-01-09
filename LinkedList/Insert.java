@@ -6,12 +6,12 @@ public class Insert {
     public ListNode insert(ListNode head, int value) {
         // Write your solution here
         ListNode target = new ListNode(value);
-        if (head == null || head.next == null) {
+        if (head == null || head.value >= value) {
             target.next = head;
             return target;
         }
         ListNode cur = head;
-        while (cur.next != null && cur.value < target.value) {
+        while (cur.next != null && cur.next.value < target.value) {
             cur = cur.next;
         }
         ListNode next = cur.next;
