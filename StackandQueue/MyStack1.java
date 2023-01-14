@@ -27,6 +27,7 @@ public class MyStack1 {
 
     }
 
+    //why boolean? 与array保持一致
     public boolean push(int top) {
         ListNode newTop = new ListNode(top);
         newTop.next = this.top;
