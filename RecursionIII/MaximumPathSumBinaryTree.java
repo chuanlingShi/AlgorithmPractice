@@ -1,6 +1,6 @@
 package RecursionIII;
 
-import test.TreeNode;
+import utility.TreeNode;
 //TC: O(n), SC: O(h)
 public class MaximumPathSumBinaryTree {
     public int maxPathSum(TreeNode root) {

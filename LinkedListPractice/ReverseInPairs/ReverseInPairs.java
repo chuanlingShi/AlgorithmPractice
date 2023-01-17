@@ -1,6 +1,6 @@
 package LinkedListPractice.ReverseInPairs;
 
-import test.ListNode;
+import utility.ListNode;
 
 /**
  * Reverse pairs of elements in a singly-linked list.

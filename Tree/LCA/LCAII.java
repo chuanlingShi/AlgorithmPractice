@@ -1,6 +1,6 @@
 package Tree.LCA;
 
-import test.TreeNodeP;
+import utility.TreeNodeP;
 //TC:O(n) SC:O(1)
 public class LCAII {
     public TreeNodeP lowestCommonAncestor(TreeNodeP one, TreeNodeP two) {

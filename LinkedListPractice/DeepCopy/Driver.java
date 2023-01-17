@@ -1,5 +1,5 @@
 package LinkedListPractice.DeepCopy;
-import test.RandomListNode;
+import utility.RandomListNode;
 
 public class Driver {
     public static void main(String[] argv) {

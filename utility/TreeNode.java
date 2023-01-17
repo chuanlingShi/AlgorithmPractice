@@ -1,4 +1,4 @@
-package test;
+package utility;
 
 public class TreeNode {
     public int key;

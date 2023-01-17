@@ -1,6 +1,6 @@
 package BinaryTreePractice.LargestNumSmaller;
 
-import test.TreeNode;
+import utility.TreeNode;
 
 public class LargestSmallerNum {
     public int largestSmaller (TreeNode root, int target) {

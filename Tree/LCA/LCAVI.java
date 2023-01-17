@@ -1,6 +1,6 @@
 package Tree.LCA;
 
-import test.KnaryTreeNode;
+import utility.KnaryTreeNode;
 
 import java.util.HashSet;
 import java.util.List;

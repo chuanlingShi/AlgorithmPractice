@@ -1,6 +1,6 @@
 package RecursionIII;
 
-import test.TreeNode;
+import utility.TreeNode;
 
 /**
  * Given the postorder traversal sequence of a binary search tree, reconstruct the original tree.

@@ -1,5 +1,5 @@
 package Recursion.Tree.NumNodeLeft;
-import test.TreeNodeLeft;
+import utility.TreeNodeLeft;
 
 /**
  * Given a binary tree, count the number of nodes in each node’s left subtree, and store it in the numNodesLeft field.

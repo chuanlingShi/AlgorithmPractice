@@ -1,7 +1,7 @@
 package Tree.LCA;
 
 
-import test.KnaryTreeNode;
+import utility.KnaryTreeNode;
 
 public class LCAV {
     public KnaryTreeNode lowestCommonAncestor(KnaryTreeNode root, KnaryTreeNode a, KnaryTreeNode b) {

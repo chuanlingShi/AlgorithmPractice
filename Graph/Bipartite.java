@@ -1,5 +1,5 @@
 package Graph;
-import test.GraphNode;
+import utility.GraphNode;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -1,5 +1,5 @@
 package Recursion.Tree.LCA;
-import test.TreeNode;
+import utility.TreeNode;
 /**
  * Given two nodes in a binary tree, find their lowest common ancestor.
  *

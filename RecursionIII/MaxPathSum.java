@@ -1,6 +1,6 @@
 package RecursionIII;
 
-import test.TreeNode;
+import utility.TreeNode;
 
 /**
  * Given a binary tree in which each node contains an integer number.

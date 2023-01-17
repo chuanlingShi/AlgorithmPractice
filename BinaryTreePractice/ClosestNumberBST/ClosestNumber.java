@@ -1,6 +1,6 @@
 package BinaryTreePractice.ClosestNumberBST;
 
-import test.TreeNode;
+import utility.TreeNode;
 
 public class ClosestNumber {
     public int closest(TreeNode root, int target) {

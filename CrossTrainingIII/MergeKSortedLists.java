@@ -1,6 +1,6 @@
 package CrossTrainingIII;
 
-import test.ListNode;
+import utility.ListNode;
 
 import java.util.Comparator;
 import java.util.List;

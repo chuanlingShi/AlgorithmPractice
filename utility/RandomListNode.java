@@ -1,4 +1,4 @@
-package test;
+package utility;
 
 public class RandomListNode {
     public int value;

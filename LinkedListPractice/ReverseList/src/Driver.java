@@ -1,9 +1,9 @@
 package LinkedListPractice.ReverseList.src;
 
 
-import test.ListNode;
+import utility.ListNode;
 
-import static test.ListNode.*;
+import static utility.ListNode.*;
 
 public class Driver {
     public static void main(String[] argv){

@@ -1,6 +1,6 @@
 package LinkedListPractice.ReverseList.src;
 
-import test.ListNode;
+import utility.ListNode;
 
 
 public class Recursion {

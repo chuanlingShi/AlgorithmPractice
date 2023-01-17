@@ -1,5 +1,5 @@
 package Recursion.Tree.MaxPathSum;
-import test.TreeNode;
+import utility.TreeNode;
 /***
  * Given a binary tree in which each node contains an int number.
  *

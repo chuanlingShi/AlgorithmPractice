@@ -1,5 +1,5 @@
 package Recursion.Tree.ReverseBTUpsideDown;
-import test.TreeNode;
+import utility.TreeNode;
 
 public class ReverseBT {
     public TreeNode reverse(TreeNode root) {

@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-import test.TreeNode;
+import utility.TreeNode;
 
 public class ZigZagOrder {
     public List<Integer> zigZag(TreeNode root) {

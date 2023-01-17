@@ -1,5 +1,5 @@
 package LinkedListPractice.DeepCopy;
-import test.RandomListNode;
+import utility.RandomListNode;
 
 import java.util.HashMap;
 import java.util.Map;
