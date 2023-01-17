@@ -6,7 +6,9 @@ public class TreeNode {
     public TreeNode right;
 
     public TreeNode(int value){
-        this.key = value;
+        key = value;
+        left = null;
+        right = null;
     }
 
 //    public static TreeNode toBinaryTree(Integer[] array) {
