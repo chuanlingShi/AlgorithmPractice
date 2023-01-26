@@ -1,4 +1,4 @@
-package heap;
+package BFSandheap;
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;

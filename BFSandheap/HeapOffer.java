@@ -1,4 +1,4 @@
-package heap;
+package BFSandheap;
 
 public class HeapOffer {
     public int[] offerHeap(int[] array, int ele) {
