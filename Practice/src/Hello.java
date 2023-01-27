@@ -1,7 +1,5 @@
 package Practice.src;
 
-import com.sun.corba.se.spi.presentation.rmi.PresentationManager;
-
 public class Hello {
     public static void main(String[] argv) {
         Student tom = new Student();
