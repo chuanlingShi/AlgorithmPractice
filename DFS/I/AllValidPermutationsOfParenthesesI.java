@@ -5,8 +5,8 @@ import java.util.List;
 
 
 public class AllValidPermutationsOfParenthesesI {
-    //tc: O(2^(2n))
-    //sc: O(2n)
+    //tc: O(2^(2n) * (2n))
+    //sc: O(2n) -> O(n)
     public List<String> validParentheses(int n) {
         List<String> result = new ArrayList<>();
         StringBuilder stringBuilder = new StringBuilder();
@@ -23,12 +23,18 @@ public class AllValidPermutationsOfParenthesesI {
         if (leftRemain > 0) {
             stringBuilder.append("(");
             validParentheses(stringBuilder, leftRemain - 1, rightRemain, result);
+            stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         }
         //add right
         if (rightRemain > leftRemain) {
-            stringBuilder.deleteCharAt(stringBuilder.length() - 1);
             stringBuilder.append(")");
             validParentheses(stringBuilder, leftRemain, rightRemain - 1, result);
+            stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         }
+    }
+
+    public static void main(String[] args) {
+        AllValidPermutationsOfParenthesesI a = new AllValidPermutationsOfParenthesesI();
+        a.validParentheses(2);
     }
 }
